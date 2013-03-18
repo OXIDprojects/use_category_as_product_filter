@@ -1,6 +1,14 @@
 <?php
 class gw_oxcategory extends gw_oxcategory_parent
 {
+	
+	/**
+	 * get_is_filter_parent_category function.
+	 * 
+	 * @access public
+	 * @param mixed $cms_folder
+	 * @return void
+	 */
 	public function get_is_filter_parent_category($cms_folder) {
 		if($this->_page_list[$cms_folder] === null) {
 			// getAllContentIDs

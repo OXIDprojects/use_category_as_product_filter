@@ -40,7 +40,8 @@ $aModule = array(
     'extend'       => array(
         'oxarticlelist' => 'use_category_as_product_filter/gw_oxarticlelist',
         'oxcategory' => 'use_category_as_product_filter/gw_oxcategory',
-        'oxviewconfig' => 'use_category_as_product_filter/gw_oxviewconfig'
+        'oxviewconfig' => 'use_category_as_product_filter/gw_oxviewconfig',
+        'oxutilscount' => 'use_category_as_product_filter/gw_oxutilscount'
     ),
     'blocks' => array(
     	array('template' => 'category_main.tpl', 'block' => 'admin_category_main_form', 'file' => 'admin_category_main_form.tpl')

@@ -1,6 +1,16 @@
 <?php
 class gw_oxarticlelist extends gw_oxarticlelist_parent
 {
+	
+    /**
+     * _getCategorySelect function.
+     * 
+     * @access protected
+     * @param mixed $sFields
+     * @param mixed $sCatId
+     * @param mixed $aSessionFilter
+     * @return void
+     */
     protected function _getCategorySelect( $sFields, $sCatId, $aSessionFilter )
     {
     	if ( !oxSession::getVar( 'gw_filter_category' ) ) {
